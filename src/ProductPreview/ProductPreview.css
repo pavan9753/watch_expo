@@ -1,0 +1,45 @@
+.productPreview
+{
+    width: 50%;
+}
+.productPreview> img{
+    width: 100%;
+    position: relative;
+}
+
+
+.timeSection
+{
+    position: absolute;
+    color: blue;
+    top: 42%;
+    left: 25%;
+    font-size: 35px;
+}
+
+.heartSection
+{
+    position: absolute;
+    /* font-size: medium; */
+    /* color: white; */
+    top: 42%;
+    left: 27%;
+    font-size: 40px;
+    color: red;
+}
+
+.heartSection > i{
+    color: red;
+    animation: beat 1s infinite;
+}
+@keyframes beat
+{
+       0%
+       {
+            transform: scale(1,1);
+       } 
+       50%
+       {
+            transform: scale(1.4,1.4);
+       }
+}

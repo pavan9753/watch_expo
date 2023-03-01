@@ -1,0 +1,13 @@
+.top
+{
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    padding: 12px 20px 12px;
+}
+.top> img{
+    width: 100px;
+    /* position: fixed; */
+}

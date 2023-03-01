@@ -1,0 +1,13 @@
+
+
+
+.mainContainer
+{
+    display: flex;
+    width: 90%;
+    margin-top: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 4% 12%;
+}
+
